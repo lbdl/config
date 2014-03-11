@@ -54,4 +54,6 @@ PROMPT_COMMAND='echo -ne "\033]2;${HOSTNAME%.*}:$PWD\a"'
 #stt_both  () { setTerminalText 0 $@; }
 #stt_tab   () { setTerminalText 1 $@; }
 #stt_title () { setTerminalText 2 $@; }
-
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi

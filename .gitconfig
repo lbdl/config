@@ -1,7 +1,0 @@
-[user]
-	name = Tim Storey
-	email = tim.storey@gmail.com
-[merge]
-	tool = vimdiff
-[core]
-	editor = vim
