@@ -1,0 +1,4 @@
+This dir contains config files.
+To keep systems in sync config wise copy the relevant file into this dir and
+then push to the repo.
+Then pull on the outdated system and copy all the file here into home.
